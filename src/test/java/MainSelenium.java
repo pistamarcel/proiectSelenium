@@ -250,7 +250,7 @@ public class MainSelenium {
    public static ChromeDriver getChromeDriverByExecutable(){
    System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
     return new ChromeDriver();
-    }
+    }a
 }
 
 >>>>>>> d03044b (primul commit)
