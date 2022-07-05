@@ -1,5 +1,5 @@
 
-<<<<<<< HEAD
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.WebElement;
@@ -8,7 +8,7 @@ import org.openqa.selenium.interactions.Actions;
 
 import java.util.List;
 import java.util.NoSuchElementException;
-=======
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
@@ -18,31 +18,12 @@ import java.io.File;
 import java.io.IOException;
 import java.util.List;
 import java.util.Set;
->>>>>>> d03044b (primul commit)
+
 
 
 public class MainSelenium {
 
-<<<<<<< HEAD
-    public static void main(String[] args)  {
-   System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
-   ChromeDriver driver = new ChromeDriver();
 
-//        WebDriverManager.chromedriver().setup();
-//       ChromeDriver driver= new ChromeDriver();
-       driver.get("https://demoqa.com");
-      List<WebElement> cards= driver.findElements(By.cssSelector(".card"));
-      WebElement sixthcard=cards.get(5);
-
-      Actions actions = new Actions(driver);
-      actions.moveToElement(sixthcard).build().perform();
-
-     sixthcard.click();
-       System.out.println("Finish!");
-       driver.quit();
-    }
-}
-=======
     public static void main(String[] args) {
 
 
@@ -250,7 +231,7 @@ public class MainSelenium {
    public static ChromeDriver getChromeDriverByExecutable(){
    System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
     return new ChromeDriver();
-    }a
+    }
 }
 
->>>>>>> d03044b (primul commit)
+
